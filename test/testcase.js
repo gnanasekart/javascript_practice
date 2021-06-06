@@ -12,7 +12,6 @@ describe('mocha validation', () => {
         name.should.equal('sekar')
         name.should.have.lengthOf(5)
         log(isElementPresent())
-
     })
 
 
@@ -42,7 +41,6 @@ after(() => {
 beforeEach(() => {
     log('Before Each Hook')
 })
-
 
 //run after each test
 afterEach(() => {
